@@ -10,9 +10,11 @@ package com.vehicle;
 
 public class Car extends VehicleManufacturer implements Vehicle {
 
+    // A default constructor.
     public Car() {
     }
 
+    // A constructor of the Car class.
     public Car(String vehicleName, String vehicleModelName, String vehicleType) {
         super(vehicleName, vehicleModelName, vehicleType);
     }
@@ -30,6 +32,7 @@ public class Car extends VehicleManufacturer implements Vehicle {
             return 0;
     }
 
+    // Overriding the toString() method in the Object class.
     @Override
     public String toString() {
         return "Car{} " + super.toString();
