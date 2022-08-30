@@ -49,11 +49,7 @@ public abstract class VehicleManufacturer {
 
     @Override
     public String toString() {
-        return "VehicleManufacturer{" +
-                "vehicleName='" + vehicleName + '\'' +
-                ", vehicleModelName='" + vehicleModelName + '\'' +
-                ", vehicleType='" + vehicleType + '\'' +
-                '}';
+        return "VehicleManufacturer{" + "vehicleName='" + vehicleName + '\'' + ", vehicleModelName='" + vehicleModelName + '\'' + ", vehicleType='" + vehicleType + '\'' + '}';
     }
 
     public String getManufacturerInformation() {
