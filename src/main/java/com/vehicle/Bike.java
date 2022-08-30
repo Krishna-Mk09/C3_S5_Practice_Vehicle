@@ -11,6 +11,12 @@ package com.vehicle;
 public class Bike extends VehicleManufacturer implements Vehicle {
     @Override
     public int maxSpeed(String vehicleType) {
+        if (vehicleType == "sportsBike") {
+            return 300;
+        }
+        if (vehicleType == "crusier") {
+            return 170;
+        }
         return 0;
     }
 
@@ -20,4 +26,11 @@ public class Bike extends VehicleManufacturer implements Vehicle {
     public Bike(String vehicleName, String vehicleModelName, String vehicleType) {
         super(vehicleName, vehicleModelName, vehicleType);
     }
+
+
+    @Override
+    public String toString() {
+        return "Bike{} " + super.toString();
+    }
 }
+
