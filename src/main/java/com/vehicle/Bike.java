@@ -13,4 +13,11 @@ public class Bike extends VehicleManufacturer implements Vehicle {
     public int maxSpeed(String vehicleType) {
         return 0;
     }
+
+    public Bike() {
+    }
+
+    public Bike(String vehicleName, String vehicleModelName, String vehicleType) {
+        super(vehicleName, vehicleModelName, vehicleType);
+    }
 }
