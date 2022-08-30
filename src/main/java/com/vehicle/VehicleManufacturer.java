@@ -12,4 +12,8 @@ public abstract class VehicleManufacturer {
     private String vehicleName;
     private String vehicleModelName;
     private String vehicleType;
+
+    public VehicleManufacturer() {
+    }
+
 }
