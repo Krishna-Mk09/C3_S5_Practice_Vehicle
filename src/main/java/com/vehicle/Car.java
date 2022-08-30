@@ -10,6 +10,14 @@ package com.vehicle;
 
 public class Car extends VehicleManufacturer implements Vehicle {
 
+    public Car() {
+    }
+
+    public Car(String vehicleName, String vehicleModelName, String vehicleType) {
+        super(vehicleName, vehicleModelName, vehicleType);
+    }
+
+    // Overriding the method maxSpeed() in the interface Vehicle.
     @Override
     public int maxSpeed(String vehicleType) {
         if (vehicleType == "sportscar") {
@@ -20,5 +28,10 @@ public class Car extends VehicleManufacturer implements Vehicle {
         } else
 
             return 0;
+    }
+
+    @Override
+    public String toString() {
+        return "Car{} " + super.toString();
     }
 }

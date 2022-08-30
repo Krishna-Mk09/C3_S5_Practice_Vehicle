@@ -10,6 +10,7 @@ package com.vehicle;
 
 public class Bike extends VehicleManufacturer implements Vehicle {
     @Override
+    // This method is used to calculate the maximum speed of the vehicle.
     public int maxSpeed(String vehicleType) {
         if (vehicleType == "sportsBike") {
             return 300;
