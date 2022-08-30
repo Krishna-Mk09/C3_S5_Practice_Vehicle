@@ -16,8 +16,8 @@ public class Bike extends VehicleManufacturer implements Vehicle {
         }
         if (vehicleType == "crusier") {
             return 170;
-        }
-        return 0;
+        } else
+            return 0;
     }
 
     public Bike() {

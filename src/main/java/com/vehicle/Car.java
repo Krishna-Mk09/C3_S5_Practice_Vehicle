@@ -17,8 +17,8 @@ public class Car extends VehicleManufacturer implements Vehicle {
         }
         if (vehicleType == "sedan") {
             return 170;
-        }
+        } else
 
-        return 0;
+            return 0;
     }
 }
