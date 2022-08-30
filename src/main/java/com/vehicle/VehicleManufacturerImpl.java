@@ -9,4 +9,7 @@
 package com.vehicle;
 
 public class VehicleManufacturerImpl {
+    public static void main(String[] args) {
+
+    }
 }
