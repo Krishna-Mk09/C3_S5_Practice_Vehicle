@@ -8,5 +8,9 @@
 
 package com.vehicle;
 
-public class Bike {
+public class Bike extends VehicleManufacturer implements Vehicle {
+    @Override
+    public int maxSpeed(String vehicleType) {
+        return 0;
+    }
 }
